@@ -1,0 +1,48 @@
+
+
+.login-bg{
+    background: linear-gradient(to right, var(--bg) 50%,#fff 0%);
+}
+
+.login{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border: 1px solid red;
+   
+}
+
+.form{
+    
+    border: 1px solid red;
+    width: 100%;
+}
+
+.formulario{
+    border: 1px solid red;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+
+}
+
+.form input{
+    width: 100%;
+}
+
+.form label{
+    margin: 0;
+}
+
+
