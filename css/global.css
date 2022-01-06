@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 :root {
-  --bg-login: #ffef5b;
+  --bg-login: #fcd949;
   --bg-button:#1D1D1D;
 }
 
@@ -21,4 +22,11 @@
     font-size: 1rem;
     font-weight: bold;
     cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    border-radius: 4px;
+}
+
+.button:hover{
+  background-color: #000 ;
 }

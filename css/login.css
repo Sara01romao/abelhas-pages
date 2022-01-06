@@ -8,6 +8,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
+  font-family: 'Roboto', sans-serif;
 }
 
 .formulario {
@@ -16,7 +17,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid red;
 
 }
 
@@ -48,6 +48,8 @@
 
 .link{
     margin: 10px 0px 30px;
+    text-decoration: none;
+    color: #0065b8;
 }
 
 .img-login img{
@@ -57,7 +59,51 @@
     object-fit: contain;
 
 }
+.img-login{
+  position: relative;
+}
+
+.img-login::before{
+ content: url('../img/decoracao.svg');
+ right: 5px;
+ top: -150px;
+ position: absolute;
+  
+}
+
+.img-login::after{
+  content: url('../img/decoracao.svg');
+  left: 5px;
+  bottom: -150px;
+  position: absolute;
+  
+ }
 
 .link-create{
-    
+  margin-top: 40px;
+  color: black;
+ 
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width:800px){
+  .login-bg {
+    background:  var(--bg-login);
+  }
+  .login{
+    grid-template-columns: 1fr;
+  }
+  .formulario{
+    padding: 10px;
+    width: 50%;
+    min-width: 320px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .img-login{
+    display: none;
+  }
+  
 }
