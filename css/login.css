@@ -82,7 +82,7 @@
 .img-login::after {
   content: url("../img/decoracao.svg");
   left: 5px;
-  bottom: -150px;
+  bottom: -138px;
   position: absolute;
 }
 
