@@ -11,7 +11,7 @@
 
 
 ## 💻  Sobre o Projeto
-Layout de uma CRUD para uma sistema de gestão de caixas de abelhas.
+Layout de uma CRUD para um sistema de gestão de caixas de abelhas.
 
 <br>
 
