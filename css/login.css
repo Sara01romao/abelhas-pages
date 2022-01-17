@@ -13,10 +13,12 @@
 
 .formulario {
   width: 100%;
+  height: 100vh;
   padding: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .assa {
@@ -74,16 +76,18 @@
 
 .img-login::before {
   content: url("../img/decoracao.svg");
-  right: 5px;
-  top: -100px;
   position: absolute;
+  right: 5px;
+  top: -50px;
+  
 }
 
 .img-login::after {
   content: url("../img/decoracao.svg");
-  left: 5px;
-  bottom: -138px;
   position: absolute;
+  left: 5px;
+  bottom: 0px;
+ 
 }
 
 .link-create {
