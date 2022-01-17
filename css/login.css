@@ -75,7 +75,7 @@
 .img-login::before {
   content: url("../img/decoracao.svg");
   right: 5px;
-  top: -150px;
+  top: -100px;
   position: absolute;
 }
 
@@ -99,6 +99,13 @@
   color: #000;
 }
 
+@media screen and (min-width: 1600px){
+  .login {
+    border: 2px solid rgba(41, 41, 41, 0.979);
+  }
+}
+
+
 @media screen and (max-width: 800px) {
   .login-bg {
     background: var(--bg-login);
@@ -118,3 +125,4 @@
     display: none;
   }
 }
+
