@@ -11,5 +11,5 @@ body{
 
 
 tr:nth-child(even){
-    background-color: var(--bg-list);
+    background-color: var(--bg-lista);
 }
