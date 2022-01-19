@@ -54,7 +54,7 @@ header ul li a{
   color: var(--bg-button);
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
-  font-weight: bold;
+  
 }
 
 header ul li a:hover{
@@ -85,6 +85,11 @@ header ul li a:hover{
   text-align: center;
   font-family: 'Roboto';
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
 }
 
 

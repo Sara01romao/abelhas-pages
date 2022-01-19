@@ -8,8 +8,35 @@ body{
     background:white;
 }
 
+main {
+    border: 1px solid red;
+    height: 100vh;
+    padding: 20px;
+}
 
+.list-container{
+    max-width: 800px;
+    margin: 50px auto 0px;
+    border: 1px solid blue;
+
+}
+
+.filtro-Caixa select{
+    width: 125px;
+    height: 25px;
+    font-size: 16px;
+}
 
 tr:nth-child(even){
     background-color: var(--bg-lista);
+}
+
+.list-control{
+    display: flex;
+    justify-content: space-between;
+}
+
+.filtro-Caixa{
+    display: flex;
+    flex-direction: column;
 }

@@ -20,43 +20,58 @@
     </header>
 
 
-    <main class="">
+    <main class="container">
         <h1 class="titulo">
-            <img src="" alt="">
             Lista
+            <img src="./img/list-icon.svg" alt="">
         </h1>
 
-        <table>
-            <tr>
-                <th>Nº Caixa</th>
-                <th>Tipo</th>
-                <th>Espécie</th>
-                <th>Data</th>
-                <th>Opções</th>
+        <div class="list-container">
+            <div class="list-control">
+                <div class="filtro-Caixa">
+                    <label for="filtro">Ordenar por</label>
+                    <select name="filtro" id="filtro">
+                        <option value="">Id</option>
+                        <option value="">n° caixa</option>
+                    </select>
+                </div>
 
-            </tr>
-            <tr>
-                <td>01</td>
-                <td>Melipona</td>
-                <td>Jataí</td>
-                <td>01/02/2002</td>
-                <td>
-                    <a href="">Editar</a>
-                    <a href="">remover</a>
-                </td>
-            </tr>
+                <a href="">+ Adicionar</a>
+            </div>
+            <table>
+                <tr>
+                    <th>Nº Caixa</th>
+                    <th>Tipo</th>
+                    <th>Espécie</th>
+                    <th>Data</th>
+                    <th>Opções</th>
+    
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>Melipona</td>
+                    <td>Jataí</td>
+                    <td>01/02/2002</td>
+                    <td>
+                        <a href="">Editar</a>
+                        <a href="">remover</a>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>01</td>
+                    <td>Melipona</td>
+                    <td>Jataí</td>
+                    <td>01/02/2002</td>
+                    <td>
+                        <a href="">Editar</a>
+                        <a href="">remover</a>
+                    </td>
+                </tr>
+                
+        </div>
 
-            <tr>
-                <td>01</td>
-                <td>Melipona</td>
-                <td>Jataí</td>
-                <td>01/02/2002</td>
-                <td>
-                    <a href="">Editar</a>
-                    <a href="">remover</a>
-                </td>
-            </tr>
-            
+     
         </table>
     </main>
 </body>
