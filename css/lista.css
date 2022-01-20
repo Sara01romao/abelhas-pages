@@ -34,9 +34,36 @@ tr:nth-child(even){
 .list-control{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .filtro-Caixa{
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+
+.add-link{
+    width: 120px;
+    height: 40px;
+    background-color: var(--bg-button);
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.add-link:hover{
+    opacity: 1;
+}
+
+table{
+    max-width: 900px;
+    min-width: 800px;
+    margin: 50px auto;
+    overflow-x: hidden;
 }
