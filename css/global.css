@@ -57,6 +57,10 @@ header ul li a:hover {
   color: #777777;
 }
 
+.sair{
+  color: rgb(240, 10, 10);
+}
+
 .button {
   height: 40px;
   background-color: var(--bg-button);
