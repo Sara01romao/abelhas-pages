@@ -1,132 +1,60 @@
-.login-bg {
-  background: linear-gradient(to right, var(--bg-login) 50%, #fff 0%);
-}
 
-.login {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  font-family: "Roboto", sans-serif;
-}
-
-.formulario {
-  width: 100%;
-  height: 100vh;
-  padding: 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.assa {
-  stroke-dasharray: 1500;
-  stroke-dashoffset: 1500;
-
-  animation: anima 10s ease-in forwards;
-}
-
-@keyframes anima {
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-.form {
-  width: 80%;
-  display: flex;
-  flex-direction: column;
-}
-
-.form input {
-  width: 100%;
-  height: 40px;
-  border: none;
-  font-size: 1rem;
-  border-radius: 5px;
-  padding: 10px;
-}
-
-.form label {
+*{
   margin: 0;
-  margin-bottom: 5px;
-  margin-top: 30px;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.link {
-  margin: 10px 0px 30px;
-  text-decoration: none;
-  color: #1d74bb;
-  transition: 0.3s;
+
+.login-container{
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+  height: 100vh;
+  border:1px solid red;
 }
-.link:hover {
-  color: #135d99;
+
+.form-container{
+  background-color: var(--bg-amarelo);
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border:1px solid rgb(0, 60, 255);
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+   
+
 }
-.img-login img {
+
+.form-container .logo{
   display: block;
-  margin: 0 auto;
-  max-width: 70%;
-  object-fit: contain;
-}
-.img-login {
-  position: relative;
+  border: 1px solid red;
+  position: absolute;
+  top: 0;
 }
 
-.img-login::before {
-  content: url("../img/decoracao.svg");
-  position: absolute;
-  right: 5px;
-  top: -50px;
+.info-login{
+  border: 1px solid black;
+  height: 50vh;
   
 }
 
-.img-login::after {
-  content: url("../img/decoracao.svg");
-  position: absolute;
-  left: 5px;
-  bottom: 0px;
- 
+.form-container h2{
+  border: 1px solid rgb(255, 255, 255);
+  margin: 0px 0px 50px;
+  text-align: center;
+  font-size: 2.5rem;
 }
 
-.link-create {
-  margin-top: 40px;
-  color: rgb(124, 124, 124);
+.form-div{
+  border: 1px solid rgb(255, 255, 255);
 
+  
+}
+
+.inputs{
   display: flex;
   flex-direction: column;
-  transition: 0.3s;
+
 }
-
-.link-create:hover{
-  color: #000;
-}
-
-@media screen and (min-width: 1600px){
-  .login {
-    border: 2px solid rgba(41, 41, 41, 0.979);
-  }
-}
-
-
-@media screen and (max-width: 800px) {
-  .login-bg {
-    background: var(--bg-login);
-  }
-  .login {
-    grid-template-columns: 1fr;
-  }
-  .formulario {
-    padding: 10px;
-    width: 50%;
-    min-width: 320px;
-    margin: 0 auto;
-    position: relative;
-  }
-
-  .img-login {
-    display: none;
-  }
-}
-

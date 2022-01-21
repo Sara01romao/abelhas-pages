@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 :root {
-  --bg-login: #ffdd55;
+  --bg-amarelo: #ffdd55;
   --bg-button:#1D1D1D;
   --bg-lista:#ebeef5;
 }
@@ -30,7 +30,7 @@ a{
 }
 
 header{
-  background-color: var(--bg-login);
+  background-color: var(--bg-amarelo);
  
   width: 100%;
   padding: 10px 0px;
