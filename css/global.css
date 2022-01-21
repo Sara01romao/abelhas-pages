@@ -1,89 +1,83 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 :root {
   --bg-amarelo: #ffdd55;
-  --bg-button:#1D1D1D;
-  --bg-lista:#ebeef5;
+  --bg-button: #1d1d1d;
+  --bg-lista: #ebeef5;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
 }
 
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
-
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-ul{
+ul {
   list-style: none;
 }
-a{
+a {
   text-decoration: none;
 }
 
-header{
+header {
   background-color: var(--bg-amarelo);
- 
+
   width: 100%;
   padding: 10px 0px;
-
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 30px;
 }
 
-header ul{
+header ul {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
-header ul li a{
+header ul li a {
   color: var(--bg-button);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
-  
 }
 
-header ul li a:hover{
+header ul li a:hover {
   color: #777777;
 }
 
-
-
-.button{
-    height: 40px;
-    background-color: var(--bg-button) ;
-    color: #fff;
-    font-size: 1.2rem;
-    font-weight: bold;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    transition: 0.3s;
+.button {
+  height: 40px;
+  background-color: var(--bg-button);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
 }
 
-.button:hover{
-  background-color: #000 ;
+.button:hover {
+  background-color: #000;
+  border: 1px solid #ffff;
 }
 
-
-.titulo{
+.titulo {
   font-size: 35px;
   text-align: center;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: bold;
   display: flex;
   align-items: center;
@@ -92,16 +86,11 @@ header ul li a:hover{
   margin-top: 50px;
 }
 
-
-
-@media screen and (max-width:425px) {
-
-  nav{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  
-}
-
+@media screen and (max-width: 425px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 }
