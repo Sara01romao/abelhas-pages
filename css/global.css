@@ -91,6 +91,12 @@ header ul li a:hover {
   margin-top: 50px;
 }
 
+.input{
+  height: 30px;
+}
+
+
+
 @media screen and (max-width: 425px) {
   nav {
     display: flex;
