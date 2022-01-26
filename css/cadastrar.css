@@ -1,3 +1,31 @@
-span{
-    color: var(--icon-titulo);
+span {
+  color: var(--icon-titulo);
+}
+
+.cadastrar-container {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.cadastrar-formulario {
+  border: 1px solid blue;
+  max-width: 700px;
+  padding: 30px;
+}
+
+.select-form select {
+  border: 1px solid rgb(43, 255, 0);
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.flex-input {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+  border: 1px solid blue;
 }

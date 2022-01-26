@@ -28,48 +28,45 @@
 
 
     <main class="cadastrar-container container">
+        
         <h1 class="titulo">
             Cadastrar <span>+</span>
             
         </h1>
 
 
+        <div class="cadastrar-formulario">
+            <form action="">
+               
 
-        <form action="">
-            <div>
-                <label for="melipona">Melipona</label>
-                <input type="radio">
-
-                <label for="melipona">Apis</label>
-                <input type="radio">
-            </div>
-
-            <div>
-               <label for="especie">Espécie</label>
-               <select name="especie" id="especie">
-                   <option value="">Jataí</option>
-                   <option value="">Írai</option>
-                   <option value="">Tubuna</option>
-               </select>
-            </div>
-
-            <div>
-                <div>
-                    <label for="numero">Nº Caixa</label>
-                    <input type="number">
+                <div class="select-form">
+                    <label for="especie">Espécie</label><br>
+                    <select class="input" name="especie" id="especie">
+                        <option value="">Apis</option>
+                        <option value="">Jataí</option>
+                        <option value="">Írai</option>
+                        <option value="">Tubuna</option>
+                    </select>
                 </div>
 
-                <div>
-                    <label for="data">Data</label>
-                    <input type="date">
+                <div class="flex-input">
+                    <div>
+                        <label for="numero">Nº Caixa</label><br>
+                        <input class="input" type="number">
+                    </div>
+
+                    <div>
+                        <label for="data">Data</label><br>
+                        <input class="input"  type="date">
+                    </div>
+                    
+
                 </div>
-                
+                <button class="button">Cadastrar</button>
+            </form>
 
-            </div>
-            <button class="button">Cadastrar</button>
-        </form>
-
-        <a href="">Cancelar</a>
+            <a href="">Cancelar</a>
+        </div>
     <main>
     
 </body>
