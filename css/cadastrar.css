@@ -4,6 +4,7 @@ span {
 
 .cadastrar-container {
   border: 1px solid red;
+  padding: 0px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,15 +12,25 @@ span {
 }
 
 .cadastrar-formulario {
-  border: 1px solid blue;
-  max-width: 700px;
-  padding: 30px;
+  box-shadow: 1px 0px 15px 3px rgba(83, 83, 83, 0.1);
+
+  border-radius: 15px;
+  max-width: 400px;
+  padding: 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.select-form select {
-  border: 1px solid rgb(43, 255, 0);
-  width: 100%;
-  margin-bottom: 30px;
+.cadastrar-formulario a{
+  margin-top: 30px;
+  color: var(--icon-titulo);
+  transition: 0.3s;
+}
+
+.cadastrar-formulario a:hover{
+  color: #d6a100;
 }
 
 .flex-input {
@@ -27,5 +38,9 @@ span {
   grid-template-columns: 1fr 1fr;
   gap: 30px;
   align-items: center;
-  border: 1px solid blue;
+}
+
+.cadastrar-formulario button {
+  width: 100%;
+  margin-top: 50px;
 }

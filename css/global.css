@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 :root {
   --bg-amarelo: #ffdd55;
-  --icon-titulo: #FFC100;
+  --icon-titulo: #ffc100;
   --bg-button: #1d1d1d;
   --bg-lista: #ebeef5;
 }
@@ -58,7 +58,7 @@ header ul li a:hover {
   color: #777777;
 }
 
-.sair{
+.sair {
   color: rgb(240, 10, 10);
 }
 
@@ -91,12 +91,29 @@ header ul li a:hover {
   margin-top: 50px;
 }
 
-.input{
+.input {
   height: 30px;
+  width: 100%;
+  font-size: 16px;
+  padding: 0px 10px;
+  background: var(--bg-lista);
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
 }
 
+.select-form select {
+  background: var(--bg-lista);
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
 
-
+option {
+  background: #fff;
+}
 @media screen and (max-width: 425px) {
   nav {
     display: flex;
