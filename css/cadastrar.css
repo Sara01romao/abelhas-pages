@@ -3,7 +3,6 @@ span {
 }
 
 .cadastrar-container {
-  border: 1px solid red;
   padding: 0px 20px;
   display: flex;
   flex-direction: column;
@@ -15,7 +14,7 @@ span {
   box-shadow: 1px 0px 15px 3px rgba(83, 83, 83, 0.1);
 
   border-radius: 15px;
-  max-width: 400px;
+  max-width: 450px;
   padding: 40px;
 
   display: flex;
@@ -23,13 +22,13 @@ span {
   align-items: center;
 }
 
-.cadastrar-formulario a{
+.cadastrar-formulario a {
   margin-top: 30px;
   color: var(--icon-titulo);
   transition: 0.3s;
 }
 
-.cadastrar-formulario a:hover{
+.cadastrar-formulario a:hover {
   color: #d6a100;
 }
 
@@ -45,13 +44,11 @@ span {
   margin-top: 50px;
 }
 
-
-@media screen and (max-width:423px) {
-
+@media screen and (max-width: 423px) {
   .flex-input {
-  display: grid;
-  grid-template-columns: 1fr ;
-  gap: 30px;
-  align-items: center;
-}
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    align-items: center;
+  }
 }
