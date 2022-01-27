@@ -93,6 +93,7 @@ header ul li a:hover {
 
 .input {
   height: 30px;
+  max-width: 100%;
   width: 100%;
   font-size: 16px;
   padding: 0px 10px;
@@ -114,6 +115,9 @@ header ul li a:hover {
 option {
   background: #fff;
 }
+
+
+
 @media screen and (max-width: 425px) {
   nav {
     display: flex;
