@@ -41,7 +41,7 @@
 
                 <div class="select-form">
                     <label clas="label" for="especie">Espécie</label><br>
-                    <select class="input" name="especie" id="especie">
+                    <select class="input" name="especie" id="especie" required>
                         <option value="">Selecionar</option>
                         <option value="Apis">Apis</option>
                         <option value="Jatai">Jataí</option>
@@ -53,12 +53,12 @@
                 <div class="flex-input">
                     <div>
                         <label for="numero">Nº Caixa</label><br>
-                        <input class="input" type="number">
+                        <input id="numero" class="input" type="number" required>
                     </div>
 
                     <div>
                         <label for="data" >Data</label><br>
-                        <input class="input"  type="date">
+                        <input id="data"class="input"  type="date" required>
                     </div>
                     
 
@@ -66,7 +66,7 @@
                 <button class="button">Cadastrar</button>
             </form>
 
-            <a href="">Cancelar</a>
+            <a href="./lista.html">Cancelar</a>
         </div>
     <main>
     
