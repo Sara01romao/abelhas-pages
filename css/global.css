@@ -116,6 +116,12 @@ option {
   background: #fff;
 }
 
+.id-caixa{
+  text-align: end;
+  color: rgba(102, 102, 102, 0.479);
+  font-weight: bold;
+}
+
 
 
 @media screen and (max-width: 425px) {
