@@ -123,6 +123,30 @@ option {
 }
 
 
+.modal{
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.397);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  display: none;
+  
+}
+
+
+
+.modal-container{
+  background-color: #fff;
+  max-width: 100%;
+  width: 450px;
+  height: 350px;
+
+}
+
 
 @media screen and (max-width: 425px) {
   nav {
