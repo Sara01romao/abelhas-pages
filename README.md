@@ -30,8 +30,8 @@ Storyset - ilustrações
 - [x] Layout Figma 
 - [x] Page Login
 - [x] Page Lista
-- [ ] Page Cadastro
-- [ ] Page Editar
+- [x] Page Cadastro
+- [x] Page Editar
 
 
 
