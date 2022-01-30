@@ -69,7 +69,7 @@ tr:nth-child(even) {
 .tabela {
   max-width: 100%;
   width: 100%;
-  height: 400px;
+  height: 350px;
   margin: 50px auto 0px;
 
   overflow: auto;
@@ -107,10 +107,17 @@ table td {
   border-right: 1px solid rgba(58, 57, 57, 0.062);
 }
 
-.op-item a:hover {
+.op-item a:hover,  .op-item button:hover{
   opacity: 1;
   background: rgba(211, 211, 211, 0.322);
 }
+
+.op-item button{
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
 
 .op-item img {
   display: inline-block;
