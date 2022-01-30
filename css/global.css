@@ -116,14 +116,13 @@ option {
   background: #fff;
 }
 
-.id-caixa{
+.id-caixa {
   text-align: end;
   color: rgba(102, 102, 102, 0.479);
   font-weight: bold;
 }
 
-
-.modal{
+.modal {
   width: 100%;
   height: 100vh;
   top: 0;
@@ -133,22 +132,60 @@ option {
   justify-content: center;
   padding: 20px;
   display: none;
-  
 }
 
-.modal.ativo{
+.modal.ativo {
   display: flex;
 }
 
-
-.modal-container{
+.modal-container {
   background-color: #fff;
   max-width: 100%;
   width: 450px;
-  height: 350px;
-
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
 }
 
+.modal-container h3 {
+  margin: 20px 0 10px;
+}
+
+.modal-container p {
+  margin: 10px 0 40px;
+  color: #777777;
+  text-align: center;
+}
+
+.bnt-modal {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.bnt-modal button {
+  width: 110px;
+  height: 30px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.bnt-modal button:hover {
+  border: 2px solid #777777;
+}
+
+.bnt-modal .excluir {
+  background-color: #ff0000dc;
+  color: #fff;
+}
 
 @media screen and (max-width: 425px) {
   nav {
